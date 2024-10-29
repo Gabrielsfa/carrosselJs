@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider de Imagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="imagem1.jpg">
+            </div>
+            <div class="slide">
+                <img src="imagem2.jpg">
+            </div>
+            <div class="slide">
+                <img src="imagem3.jpg">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
